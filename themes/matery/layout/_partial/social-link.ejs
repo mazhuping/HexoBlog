@@ -10,6 +10,11 @@
     </a>
 
 <% } %>
+<% if (theme.socialLink.weixin) { %>
+    <a href="<%= theme.socialLink.weixin %>" class="tooltipped" target="_blank" data-tooltip="微信联系我: <%= theme.socialLink.weixin %>" data-position="top" data-delay="50">
+        <i class="fa fa-weixin"></i>
+    </a>
+<% } %>
 
 <% if (theme.socialLink.zhihu) { %>
     <a href="https://zhihu.com/people/<%= theme.socialLink.zhihu %>" class="tooltipped" target="_blank" data-tooltip="访问我的知乎" data-position="top" data-delay="50">

@@ -1,4 +1,4 @@
-# shw2018 洪卫  modify 2019.08.01
+# mazhuping  平兄  begin 2020.04.download.jpg
 # main menu navigation url and icon
 # 配置菜单导航的名称、路径和图标icon.
 menu:
@@ -14,9 +14,9 @@ menu:
   Archives:
     url: /archives
     icon: fa-archive
-  AV:
-    url: /AV
-    icon: fa-music
+  # AV:
+  #   url: /AV
+  #   icon: fa-music
   # List: 
   # url: /List
   # icon: fa-heartbeat
@@ -29,9 +29,9 @@ menu:
   #     name: 视频
   #     url: /List/movies
   #     icon: fa-film
-  Galleries:
-    url: /galleries
-    icon: fa-photo
+  # Galleries:
+  #   url: /galleries
+  #   icon: fa-photo
   About:
     url: /about
     icon: fa-user-circle-o
@@ -64,8 +64,8 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
-  showTitle: false
+  enable: false
+  showTitle: true
   title: 听听音乐
   fixed: false # 开启吸底模式
   autoplay: false # 是否自动播放
@@ -80,10 +80,10 @@ music:
 # Whether to display the videos.
 # 是否在首页显示视频.
 video:
-  enable: true
+  enable: false
   showTitle: true
   title: 看看视频
-  url: https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4 # 必填
+  url: https://www.bilibili.com/video/BV11k4y1R7kQ/ # 必填
   pic:
   thumbnails:
   height: # 如：400
@@ -102,7 +102,7 @@ recommend:
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
 favicon: /favicon.png
-logo: /medias/logo.png
+# logo: /medias/logo.png 
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -111,17 +111,18 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://github.com/shw2018/
+  url: https://github.com/mazhuping/
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 948840751
-  github: shw2018
-  weibo: 3010027571  # 微风穿云隙
-  email: 948840751@qq.com
-  zhihu: hongwei-60-34 # Hongwei
+  weixin: /medias/avatars/wcAccount.jpg
+  qq: 914837066
+  github: mazhuping
+  weibo: 6749572982  # 微风穿云隙
+  email: 914837066@qq.com
+  # zhihu: hongwei-60-34 # Hongwei
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -140,9 +141,9 @@ code:
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
   enable: true
-  title: 你的赏识是我前进的动力!
-  wechat: /medias/reward/wechat.bmp
-  alipay: /medias/reward/alipay.bmp
+  title: !
+  wechat: /medias/reward/wechat.png
+  alipay: /medias/reward/alipay.png
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
 # minCharNumber: Approve copyright information by copying at least how many characters.
@@ -158,7 +159,7 @@ copyright:
 # 是否激活mathjax数学公式，这是全局配置，但文章仍然不会都开启mathjax渲染，
 # 考虑到mathjax加载比较耗时，你还需要在需要渲染的文章的Front-matter中再加上`mathjax: true`才行.
 mathjax:
-  enable: true
+  enable: false
   cdn: https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # Post word count, reading duration, site total word count.
@@ -175,20 +176,20 @@ wordCount:
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
 clicklove:
-  enable: true
+  enable: false
 
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/avatars/hwsun.jpg
-  career: 电子科技大学 | 电子与通信工程 | 计算机视觉
-  introduction: 我是电子科技大学信息与通信工程学院2018级硕士研究生。研究方向是计算机视觉，深度学习。我们实验室是智能视觉信息处理与通信实验室(IVIPC)，欢迎大家报考！
+  avatar: /medias/avatars/mazhuping.jpg
+  career: 程序员 | 区块链爱好者 | 加密货币投资
+  introduction: Hey,  欢迎光临平兄回忆录！在这里，我会分享我在区块链、个人投资、深度思考、阅读以及那些能够让我感觉相见恨晚的工具软件等，记录我个人的思考成长轨迹！
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: true
+  enable: false
   data:
     DeepLearning-500-questions:
       icon: fa-file-text-o
@@ -211,7 +212,7 @@ myProjects:
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
-  enable: true
+  enable: false
   data:
     算法:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
@@ -236,7 +237,7 @@ mySkills:
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: true
+  enable: false
   data:
     - /medias/featureimages/0.jpg
     - /medias/featureimages/1.jpg
@@ -304,7 +305,7 @@ valine:
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
-  enable: true
+  enable: false
   url: https://github.com/shw2018/shw2018.github.io
   title: Fork Me
 
@@ -347,7 +348,7 @@ libs:
     gitalk: /libs/gitalk/gitalk.css
     jqcloud: /libs/jqcloud/jqcloud.css
     tocbot: /libs/tocbot/tocbot.css
-    #  洪卫 shw2018  add 2019.08.28
+    #  平兄 shw2018  add 2019.08.28
     fancybox: https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css
     justifiedGallery: https://cdn.staticfile.org/justifiedGallery/3.7.0/css/justifiedGallery.min.css
     share: /libs/share/css/share.min.css
@@ -369,20 +370,20 @@ libs:
     gitalk: /libs/gitalk/gitalk.min.js
     jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
     tocbot: /libs/tocbot/tocbot.min.js
-    #  洪卫 shw2018  add 2019.08.28
+    #  平兄 shw2018  add 2019.08.28
     fancybox: https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js
     justifiedGallery: https://cdn.staticfile.org/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js
     lazyload: /libs/lazyload/jquery.lazyload.js
     share: /libs/share/js/social-share.min.js
     matery: /js/matery.js
     search: /js/search.js
-    #  洪卫 shw2018  add 2019.09.10
+    #  平兄 shw2018  add 2019.09.10
     sakura: /js/sakura.js
     fireworks: /js/fireworks.js
     wenzi: /js/wenzi.js
     xuehuapiaoluo: /js/xuehuapiaoluo.js
     instant.page: /js/instant.page.js
-    #  洪卫 shw2018  add 2019.09.15
+    #  平兄 shw2018  add 2019.09.15
     canvas_nest: /libs/background/canvas-nest.js
     ribbon: /libs/background/ribbon.min.js
     ribbon_dynamic: /libs/background/ribbon-dynamic.js
@@ -436,45 +437,45 @@ featureImages:
   # pay（付费转载 pay for reprinting）
 
 reprint:
-  enable: fasle # whether enable reprint section 是否启用“转载规则限定模块”
+  enable: false   # whether enable reprint section 是否启用“转载规则限定模块”
   default: cc_by
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: true
 
-# 洪卫 shw2018 add 2019.09.09
+# 平兄 shw2018 add 2019.09.09
 # 页面樱花飘落动效
 sakura:
-  enable: true
+  enable: false
 
 # 鼠标点击烟花爆炸动效
 fireworks:
-  enable: true
+  enable: false 
 
-# 洪卫 shw2018 add 2019.09.10
+# 平兄 shw2018 add 2019.09.10
 # 天气控件 Weather Widget
 weather:
-  enable: true
+  enable: false
 
-# 洪卫 shw2018 add 2019.09.10
+# 平兄 shw2018 add 2019.09.10
 # 鼠标点击文字特效 
 wenzi:
-  enable: true
+  enable: false
 
-# 洪卫 shw2018 add 2019.09.10
+# 平兄 shw2018 add 2019.09.10
 # 背景雪花飘落特效
 xuehuapiaoluo:
-  enable: true
+  enable: false
 
 # Tidio online contact 
 tidio:
   enable: true
   public_key: xxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-# 洪卫 shw2018 add 2019.09.15
+# 平兄 shw2018 add 2019.09.15
 #背景canvas-nest
 canvas_nest:
-  enable: true
+  enable: false
   color: 0,0,255 #线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   pointColor: 0,0,255 #交点颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   opacity: 0.8 # 线条透明度（0~1）, 默认: 0.5
@@ -491,7 +492,7 @@ ribbon:
 
 #背景动态彩带
 ribbon_dynamic:
-  enable: true 
+  enable: false 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-author: 洪卫
+author: 平兄
 img: 
 coverImg: 
 top: false
@@ -13,3 +13,4 @@ summary:
 tags:
 categories:
 ---
+

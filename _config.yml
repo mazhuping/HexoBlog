@@ -1,20 +1,20 @@
-# shw2018 洪卫  modify 2019.08.01
+# mazhuping 平兄  begin 2020.04.23
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 洪卫的博客
-subtitle: 洪卫的博客
-description: 电子科技大学 | 电子与通信工程 | 计算机视觉
-keywords: UESTC CV DeepLearning MachineLearning 洪卫 sunhw Hongwei 计算机视觉 深度学习
-author: 洪卫
+title: 平兄回忆录
+subtitle: 平兄回忆录
+description: 区块链 | 投资理念 | 个人思考 | 日常点滴 | 平兄 | 比特币 | 以太坊 | 柚子 | 通证
+keywords: blockchain bitcoin invest think book reading vedio life mazhuping btc bitcoin ethereum eth eos token
+author: 平兄
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-# url: https://shw2018.github.io/
+# url: https://mazhuping.github.io/
 url: https://mazhuping.com
 root: /
 permalink: :year/:month/:day/:title/
@@ -124,14 +124,14 @@ deploy:
 # baidu submit
 baidu_url_submit:
   count: 80                                      # 提交最新的一个链接
-  host: sunhwee.com     # 在百度站长平台中注册的域名
+  host: mazhuping.com     # 在百度站长平台中注册的域名
   token: XXXXXXXXXXXXXXX    # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt                # 文本文档的地址， 新链接会保存在此文本文档里
 
 
 
 live2d:
-  enable: true
+  enable: false
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/
@@ -152,7 +152,7 @@ live2d:
     opacity: 0.7
    
 githubEmojis:
-  enable: true
+  enable: false
   className: github-emoji
   inject: true
   styles:
