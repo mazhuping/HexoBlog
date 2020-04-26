@@ -1,14 +1,12 @@
 ---
 title: 博客开源
-date: 2019-08-27 11:41:03
 author: 平兄
-img: 
 coverImg: /medias/banner/0.jpg
 top: true
 cover: false
 toc: true
 mathjax: false
-summary: 
+summary: >-
   倒腾了一两周总算把个人博客网站完善了，目前这个版本使用应该是够了，当然还有一些优化项和功能增加后续在慢慢更新，为了回馈开源，今天准备把我自己修改完善的`blog`网站源代码开源。这不是生成后的网页文件，是您可以直接使用的源码，您只需要把博客相关信息换成您自己的就可以部署了。
 tags:
   - Hexo
@@ -16,6 +14,9 @@ tags:
   - 博客
 categories:
   - 软件安装与配置
+abbrlink: e3e08109
+date: 2019-08-27 11:41:03
+img:
 password:
 ---
 

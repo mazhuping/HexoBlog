@@ -4,8 +4,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 平兄回忆录
-subtitle: 平兄回忆录
+title: 
+subtitle: 
 description: 区块链 | 投资理念 | 个人思考 | 日常点滴 | 平兄 | 比特币 | 以太坊 | 柚子 | 通证
 keywords: blockchain bitcoin invest think book reading vedio life mazhuping btc bitcoin ethereum eth eos token
 author: 平兄
@@ -17,8 +17,13 @@ timezone:
 # url: https://mazhuping.github.io/
 url: https://mazhuping.com
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+# permalink: :year/:month/:day/:title/
+# permalink_defaults:
+permalink: archives/:abbrlink.html 
+abbrlink: 
+  alg: crc32 # 算法：crc16(default) and crc32 
+  rep: hex # 进制：dec(default) and hex
+ 
 
 # Directory
 source_dir: source
@@ -125,7 +130,7 @@ deploy:
 baidu_url_submit:
   count: 80                                      # 提交最新的一个链接
   host: mazhuping.com     # 在百度站长平台中注册的域名
-  token: XXXXXXXXXXXXXXX    # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  token: WvsKdVEURCithsQh    # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt                # 文本文档的地址， 新链接会保存在此文本文档里
 
 
