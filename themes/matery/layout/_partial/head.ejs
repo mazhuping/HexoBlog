@@ -31,7 +31,7 @@
     }
 
     // final page title.
-    var pageTitle = title ? title + ' | ' + config.title : "回忆录";
+    var pageTitle = title ? title + ' | ' + config.title : config.title;
 
     // keywords.
     var keyWords = config.keywords ? config.keywords : config.title;
@@ -79,6 +79,7 @@
     <title><%= pageTitle %></title>
     <link rel="icon" type="<%= iconType %>" href="<%- theme.favicon %>">
 
+    <link href='http://cdn.repository.webfont.com/webfonts/nomal/137868/149/5ea7ebb6f629d80d5ce25636.css' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.fontAwesome %>">
     <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.materialize %>">
     <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.aos %>">
