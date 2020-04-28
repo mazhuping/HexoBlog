@@ -4,7 +4,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title:  
+title: 
 subtitle: 
 description: 区块链 | 投资理念 | 个人思考 | 日常点滴 | 平兄 | 比特币 | 以太坊 | 柚子 | 通证
 keywords: blockchain bitcoin invest think book reading vedio life mazhuping btc bitcoin ethereum eth eos token
@@ -17,8 +17,15 @@ timezone:
 # url: https://mazhuping.github.io/
 url: https://mazhuping.com
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+
+
+# permalink: :year/:month/:day/:title/
+# permalink_defaults:
+permalink: archives/:abbrlink.html 
+abbrlink: 
+  alg: crc32 # 算法：crc16(default) and crc32 
+  rep: hex # 进制：dec(default) and hex
+ 
 
 # Directory
 source_dir: source
