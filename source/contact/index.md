@@ -16,9 +16,9 @@ layout: "contact"
 
 博客名称: 平兄の博客
 
-博客网址: https://sunhwee.com
+博客网址:  
 
-博客头像: http://sunhwee.com/hwsun.jpg
+博客头像:  
 
 博客介绍: UESTC  CVer！
 

@@ -6,7 +6,7 @@
 # Site
 title: 
 subtitle: 
-description: 区块链 | 投资理念 | 个人思考 | 日常点滴 | 平兄 | 比特币 | 以太坊 | 柚子 | 通证
+description: 记录所思所想所见
 keywords: blockchain bitcoin invest think book reading vedio life mazhuping btc bitcoin ethereum eth eos token
 author: 平兄
 language: zh-CN
@@ -132,7 +132,7 @@ deploy:
 baidu_url_submit:
   count: 80                                      # 提交最新的一个链接
   host: mazhuping.com     # 在百度站长平台中注册的域名
-  token: XXXXXXXXXXXXXXX    # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  token: WvsKdVEURCithsQh    # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt                # 文本文档的地址， 新链接会保存在此文本文档里
 
 
