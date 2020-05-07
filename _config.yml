@@ -123,7 +123,7 @@ deploy:
 - type: git
   repo:
     github:  https://github.com/mazhuping/mazhuping.github.io.git
-    # coding: https://git.coding.net/hwsun/hwsun.git
+    # coding: https://e.coding.net/mazhuping/mazhuping.git 
     # gitee: https://gitee.com/hwsun/hwsun.git
   branch: master
 - type: baidu_url_submitter

@@ -330,8 +330,8 @@ busuanziStatistics:
 # Add google analytics configuration
 # 添加 Google Analytics 配置
 googleAnalytics:
-  enable: false
-  id: UA-144253917-1
+  enable: true
+  id: UA-165816676-1
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.
@@ -469,7 +469,7 @@ xuehuapiaoluo:
 
 # Tidio online contact 
 tidio:
-  enable: true
+  enable: false
   public_key: xxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # 平兄 shw2018 add 2019.09.15
